@@ -3,6 +3,8 @@
 include 'classes/cars.php';
 include 'classes/create.php';
 
+include 'cli/script.php';
+
 $create = new Create();
 
 $create->createDb();

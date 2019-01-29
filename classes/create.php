@@ -8,7 +8,7 @@ class Create{
         $name = 'root';
         $password = '';
         $host = 'mysql:host=localhost';
-        $db_name = 'nova';
+        $db_name = 'zadatak';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'"
@@ -31,7 +31,7 @@ class Create{
         
         $name = 'root';
         $password = '';
-        $host = 'mysql:dbname=nova;host=localhost';
+        $host = 'mysql:dbname=zadatak;host=localhost';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'"
@@ -62,7 +62,7 @@ class Create{
         
         $name = 'root';
         $password = '';
-        $host = 'mysql:dbname=nova;host=localhost';
+        $host = 'mysql:dbname=zadatak;host=localhost';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'"
@@ -91,7 +91,7 @@ class Create{
         
         $name = 'root';
         $password = '';
-        $host = 'mysql:dbname=nova;host=localhost';
+        $host = 'mysql:dbname=zadatak;host=localhost';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'"
